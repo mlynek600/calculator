@@ -131,8 +131,14 @@ function equals() {
       result = multiOperationNumber - nextNumber;
       break;
     case 'division':
-      result = multiOperationNumber / nextNumber;
-      break;
+      if (nextNumber == 0) {
+        result = 0;
+        alert("You can't divide by zero");
+        break;
+      } else {
+        result = Math.round( (multiOperationNumber / nextNumber) );
+        break;
+      }
     case 'multiplication':
       result = multiOperationNumber * nextNumber;
       break;
@@ -140,6 +146,7 @@ function equals() {
   resultWindow.innerText = result;
   multiOperationNumber = 0;
   counter = 0
+  operation = 'none';
 }
 
 zeroBtn.addEventListener('click', writeNumber);
