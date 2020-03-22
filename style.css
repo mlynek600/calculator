@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  width: 300px;
+  height: 500px;
+}
+
+.result {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+}
+
+.greys {
+  width: 25%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.greys:hover {
+  background-color: grey;
+}
+
+.oranges {
+  width: 25%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.oranges:hover {
+  background-color: brown;
+}
+
+.clear {
+  width: 50%;
+}
+
+.zero {
+  width: 75%;
+}
