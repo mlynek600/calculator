@@ -1,5 +1,19 @@
-# calculator
-this is my first project of a simple calculator
+# Calculator project
 
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-This works only with integers (uses Math.round() for division)
+## General info
+This project is a calculator which works on integers
+	
+## Technologies
+Project is created with:
+* HTML5
+* CSS3
+* Modern JS (ES5/ES6)
+	
+## Setup
+To run this project, please open link:
+https://mlynek600.github.io/calculator/
